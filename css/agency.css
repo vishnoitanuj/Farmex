@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .text-muted {
   color: #777777;
 }
@@ -306,6 +307,23 @@ section h3.section-subheading {
   margin: 0 0 15px;
   right: 0;
 }
+
+#portfolio .row{
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50%; /* here the desired aspect ratio */
+}
+
+#portfolio img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
