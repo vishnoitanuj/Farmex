@@ -1,0 +1,133 @@
+.space{
+     /* Full height */
+     height: 20%;
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.top {
+     background-image: url('../img/farm.jpeg');
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-position: center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     -o-background-size: cover;
+     text-align: center;
+     color: white;
+     margin-top: -20px;
+    height: 22em;
+ }
+
+.emblem{
+     margin-top: -2em;
+     height: 10em;
+     width: auto;
+}
+
+.brand-name{
+     color: #3cff08;
+     margin-top: -.1em;
+     margin-left: -1.0em;
+     text-align: left;
+     font-size: 7em;
+     font-weight: 400;
+     font-family: 'Playball', cursive;
+}
+
+#panel{
+     margin-left: -5em;
+     margin-right: -5em;
+}
+
+.section-buttons{
+     padding-left: 8em;
+}
+
+.section-buttons label{
+     text-align:center;
+     padding-right:100px;
+     font-weight: bolder;
+     font-size: 1.2em;
+}
+
+#portfolio .portfolio-item {
+     margin: 0 0 1px;
+     right: 0;
+}
+
+#portfolio .row{
+     padding-top: 2em;
+}
+
+#portfolio img{
+     position: relative;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+
+
+#portfolio .portfolio-item .portfolio-link {
+     display: block;
+     position: relative;
+     max-width: 400px;
+     margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+     max-width: 25.7em;
+     margin: 0 auto;
+     background-color: white;
+     text-align: center;
+     padding: 20px;
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+     text-transform: none;
+     margin: 0;
+}
+#portfolio .portfolio-item .portfolio-caption p {
+     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-style: italic;
+     font-size: 16px;
+     margin: 0;
+}
+#portfolio * {
+     z-index: 2;
+}
+
+
+.side-panels{
+     margin-right: -5em;
+}
+
+.nav-tabs-rights{
+     margin-left: 70%;
+}
+
+.footer{
+     background-color: black;
+     font-family: 'Droid Serif', serif;
+     }
+
+#login,#register h3{
+     font-family: 'Droid Serif', serif;
+}
+
+.radio-inline{
+     font-family: 'Droid Serif', serif;
+}
+
+.nav-tabs li a{
+     font-family: 'Droid Serif', serif;
+}
+
+.panel-heading, .panel-body{
+     font-family: 'Droid Serif', serif;
+}

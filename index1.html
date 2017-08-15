@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Farmex | DairyEx | CropEx</title>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap-theme.js"></script>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Playball" rel="stylesheet">
+    <!--State Data-->
+    <script src="https://use.fontawesome.com/7fb6b2511d.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            /* The image used */
+            background-image: url("wind-farm-1747331.jpg");
+
+            /* Full height */
+            /*height: 100%;*/
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    </style>
+    <script type="text/javascript" src="js/state.js"></script>
+</head>
+<body>
+<div class="bg">
+    <nav class="navbar-default " style="padding-bottom: 0px">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" >
+                    <li class="active" ><a style="color: white" href="index.html" >Home</a></li>
+                    <li><a style="color: white" href="#">About-Us</a> </li>
+                    <li><a style="color: white" href="#">FAQ's</a> </li>
+                    <li><a style="color: white" href="#">Feedback</a> </li>
+                    <li><a style="color: white" href="#">Contact-Us</a> </li>
+                    <li>
+                        <h8 style="color: #fffcde;">Translate Page to Your Language</h8>
+                        <div id="google_translate_element"></div><script type="text/javascript">
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi,ml,mr,pa,ta,te,ur', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                        }
+                    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="space">
+                    <img class="left emblem" src="img/emblem.png"/>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div >
+                    <p class="brand-name">Farmex</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+                <section id="panel">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                            </div>
+                            <div class="row">
+                                <div class="panel-body" style="background-image: url(img/background.jpg); height: 100%; width: 97.5%; margin-left: 1.2em">
+                                <div class="col-md-8 col-sm-8">
+                                        <div class="section-buttons">
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradio">Farmer
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradio">Expert
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradio">Official
+                                            </label>
+                                        </div>
+                                        <div class="container-fluid" id="portfolio">
+                                            <div class="row">
+                                                <div class="col-md-6 col-sm-6 portfolio-item">
+                                                    <a href="#" class="portfolio-link" data-toggle="modal">
+                                                        <img src="img/portfolio/dairy.jpg" class="img-responsive" alt="">
+                                                    </a>
+                                                    <div class="portfolio-caption">
+                                                        <h4>DairyEx</h4>
+                                                        <!--<p class="text-muted">Graphic Design</p>-->
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 portfolio-item">
+                                                    <a href="#" class="portfolio-link" data-toggle="modal">
+                                                        <img src="img/portfolio/gardening.jpg" class="img-responsive" alt="">
+                                                    </a>
+                                                    <div class="portfolio-caption">
+                                                        <h4>CropEx</h4>
+                                                        <!--<p class="text-muted">Graphic Design</p>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <ul class="nav nav-tabs nav-tabs-rights" style="margin-top: -0.8em; text-align: center">
+                                        <li style="margin-left: -8em;" class="active"><a style="font-size: 16px; font-weight: 600; color: #000000 " href="#login">Login</a></li>
+                                        <li ><a style="font-size: 16px; font-weight: 600; color: #000000 " href="#register">Register</a></li>
+                                    </ul>
+                                        <div class="tab-content">
+                                            <div id="login" class="tab-pane fade in active">
+                                                <h3 class="text-center">Login</h3>
+                                                <form name="login">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="email" class="form-control" placeholder="Phone  *" id="LoginNumber" required data-validation-required-message="Please enter your email address.">
+                                                                <p class="help-block text-danger"></p>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="password" class="form-control" placeholder="Password *" id="LoginPassword" required data-validation-required-message="Please enter your phone number.">
+                                                                <p class="help-block text-danger"></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-lg-12 text-center">
+                                                            <div id="loinSuccess"></div>
+                                                            <button type="submit" class="btn btn-xl">Login</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div id="register" class="tab-pane fade">
+                                                <h3 class="text-center">Register</h3>
+                                                <form name="register" id="#">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" placeholder="Your Name *" id="uname" required data-validation-required-message="Please enter your name.">
+                                                                <p class="help-block text-danger"></p>
+                                                            </div>
+                                                            <div class='form-group' id="selection">
+                                                                <select class="form-control" id="listBox" onchange='selct_district(this.value)'></select><br>
+                                                                <select class="form-control" id='secondlist'></select>
+                                                                <br>
+                                                            </div>
+                                                            <!--<div class="form-group">-->
+                                                            <!--<input type="email" class="form-control" placeholder="Your Email *" id="uemail" required data-validation-required-message="Please enter your email address.">-->
+                                                            <!--<p class="help-block text-danger"></p>-->
+                                                            <!--</div>-->
+                                                            <div class="form-group">
+                                                                <input type="tel" class="form-control" placeholder="Your Phone *" id="uphone" required data-validation-required-message="Please enter your phone number.">
+                                                                <p class="help-block text-danger"></p>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="password" class="form-control" placeholder="Password *" id="upassword" required data-validation-required-message="Please enter your phone number.">
+                                                                <p class="help-block text-danger"></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        <div class="col-lg-12 text-center">
+                                                            <div id="registerSuccess"></div>
+                                                            <button type="submit" class="btn btn-xl">Register</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                    </div>
+                                </div>
+                                <script>
+                                    $(document).ready(function(){
+                                        $(".nav-tabs a").click(function(){
+                                            $(this).tab('show');
+                                        });
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Weather Report</div>
+                        <div class="panel-body">
+                            <a href="https://www.accuweather.com/en/in/chennai/206671/weather-forecast/206671" class="aw-widget-legal">
+                                <!--
+                                By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+                                -->
+                            </a><div id="awcc1502740058990" class="aw-widget-current"  data-locationkey="" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1502740058990"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="panel-group">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">News Alerts</div>
+                        <div class="panel-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="panel-group">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Market Information</div>
+                        <div class="panel-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+        <footer>
+            <div class="modal-footer footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 text-left">
+                            <h5>All Copyright Reserved &copy; 2017</h5>
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-center">
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-4 col-sm-4 text-right">
+                            <h5><a style="color: grey" href="#">Terms and Condition</a></h5>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="text-center" style="color: #7f7f7f">
+                        <h5>Department of Agriculture, Cooperation and Farmers Welfare<br>
+                            Ministry of Agriculture and Farmers Welfare, Government of India</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</div>
+</body>
+</html>
